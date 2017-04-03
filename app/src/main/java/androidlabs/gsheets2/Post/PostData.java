@@ -26,16 +26,17 @@ import java.util.Iterator;
 import javax.net.ssl.HttpsURLConnection;
 
 import androidlabs.gsheets2.R;
+import androidlabs.gsheets2.ServerMap;
 
 public class PostData extends AppCompatActivity {
     private ProgressDialog progress;
-
 
     TextView tvName;
     TextView tvCountry;
     Button button;
     String name;
     String country;
+    int i=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,17 +46,29 @@ public class PostData extends AppCompatActivity {
         tvName=(EditText)findViewById(R.id.input_name);
         tvCountry=(EditText)findViewById(R.id.input_country);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        name=getIntent().getExtras().getString("latitude");
+        country=getIntent().getExtras().getString("longitude");
+        new SendRequest().execute();
+       while (i<10) {
+           try {
+               Thread.sleep(500);
+               i++;
+           } catch (InterruptedException e) {
+               e.printStackTrace();
+           }
+       }
+        /*button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-               name = tvName.getText().toString();
-                country=tvCountry.getText().toString();
-
-                new SendRequest().execute();
+              // name = tvName.getText().toString();
+                //country=tvCountry.getText().toString();
+                //name=getIntent().getExtras().getString("latitude");
+                //country=getIntent().getExtras().getString("longitude");
+                //new SendRequest().execute();
             }
 
-        }   );
+        }   );*/
 
         }
 

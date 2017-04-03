@@ -14,7 +14,7 @@ import androidlabs.gsheets2.Post.PostData;
 public class MainPage extends AppCompatActivity{
 
     Button getData;
-    Button sendData;
+    Button sendData,loc;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@ public class MainPage extends AppCompatActivity{
 
         sendData=(Button)findViewById(R.id.insertUser);
         getData=(Button)findViewById(R.id.viewUser);
-
+        loc=(Button)findViewById(R.id.location);
         getData.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -45,6 +45,13 @@ public class MainPage extends AppCompatActivity{
                     startActivity(intent);
             }
 
+        });
+        loc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainPage.this,ServerMap.class);
+                startActivity(i);
+            }
         });
 
 

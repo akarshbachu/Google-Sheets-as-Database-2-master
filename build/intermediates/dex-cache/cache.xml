@@ -12,6 +12,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Dell\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_25e6bf3e70e77516f2e5cbcdf7e1164c2eb6142f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Dell\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\okio-1.4.0_de65ac1c8856f38cb7f65b4ea6b17fb11a1d1b0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,33 +57,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Dell\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0_4a48a13318be696e5af038edc5482eae2951ebc1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Dell\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_25e6bf3e70e77516f2e5cbcdf7e1164c2eb6142f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Dell\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
-        <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\okio-1.4.0_de65ac1c8856f38cb7f65b4ea6b17fb11a1d1b0e.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -75,12 +66,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Dell\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_9cef89747b560e2f4aad471f8075625f14dfa0e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
         <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.0_059563e3b2a15d66fb190504015629bf4daa6198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Dell\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0_4a48a13318be696e5af038edc5482eae2951ebc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Dell\Desktop\Google-Sheets-as-Database-2-master\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_84637cfe832a54900f9c44399ae4223ac19a26e8.jar" />
     </item>
 
 </items>
