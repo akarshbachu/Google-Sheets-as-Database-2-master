@@ -30,10 +30,6 @@ import androidlabs.gsheets2.ServerMap;
 
 public class PostData extends AppCompatActivity {
     private ProgressDialog progress;
-
-    TextView tvName;
-    TextView tvCountry;
-    Button button;
     String name;
     String country;
     int i=0;
@@ -52,20 +48,7 @@ public class PostData extends AppCompatActivity {
                e.printStackTrace();
            }
        }
-        /*button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-              // name = tvName.getText().toString();
-                //country=tvCountry.getText().toString();
-                //name=getIntent().getExtras().getString("latitude");
-                //country=getIntent().getExtras().getString("longitude");
-                //new SendRequest().execute();
-            }
-
-        }   );*/
-
-        }
+    }
 
     public class SendRequest extends AsyncTask<String, Void, String> {
 
@@ -80,18 +63,11 @@ public class PostData extends AppCompatActivity {
               
                 JSONObject postDataParams = new JSONObject();
 
-                //int i;
-                //for(i=1;i<=70;i++)
-
-
-                //    String usn = Integer.toString(i);
-
                 String id= "1rrgzNmpgz2GfsQv7S6LavNMiFmWcXH5ks18ZgqmA3gM";
 
                 postDataParams.put("name",name);
                 postDataParams.put("country",country);
                 postDataParams.put("id",id);
-
 
                 Log.e("params",postDataParams.toString());
 
