@@ -42,10 +42,12 @@ public class PostData extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.form);
 
-        button=(Button)findViewById(R.id.btn_signup);
+       /* button=(Button)findViewById(R.id.btn_signup);
         tvName=(EditText)findViewById(R.id.input_name);
         tvCountry=(EditText)findViewById(R.id.input_country);
-
+        tvName.setVisibility(View.GONE);
+        tvCountry.setVisibility(View.GONE);
+        button.setVisibility(View.GONE);*/
         name=getIntent().getExtras().getString("latitude");
         country=getIntent().getExtras().getString("longitude");
         new SendRequest().execute();

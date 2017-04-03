@@ -6,29 +6,6 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/insertUser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:background="#37a8f7"
-        android:text="Add User"
-        android:layout_marginTop="15dp"
-        android:textColor="#fff" />
-
-    <Button
-        android:id="@+id/viewUser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:background="#37a8f7"
-        android:text="View Users"
-        android:layout_marginTop="15dp"
-        android:textColor="#fff" />
-    <Button
         android:id="@+id/location"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
